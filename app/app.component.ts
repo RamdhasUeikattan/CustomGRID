@@ -18,8 +18,6 @@ import { gridData } from './data';
 export class AppComponent implements OnInit {
 
     public data: Object[];
-    public childGrid: Object;
-    public secondChildGrid;
 
     ngOnInit(): void {
         this.data = gridData;
