@@ -1,0 +1,46 @@
+.e-grid .e-gridcontent .e-content { /* grid content color*/
+    background-color: #FFF8DC;
+    border-color: #bbbcbb;
+    color: black;
+}
+.e-grid .e-altrow { /* grid alternate row color*/
+    background: #fff;
+}
+.e-gridheader .e-headercell, .e-grid td.e-active { /* grid header color and grid row select color*/
+    background: #8B4513;
+    min-height: 100%;
+    border-bottom-color: #8B4513;
+    height: 56px;
+}
+.e-grid .e-gridheader { /* grid header font color and styles*/
+    color: white;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-bottom-color: #ffaf4e;
+    border-top-color: #bbbcbb;
+}
+.e-grid .e-headercelldiv{ /* grid headercell font styles*/
+    font-weight:lighter;
+    font-size: 14px;
+}
+.e-grid .e-altrow .e-rowcell{ /* grid alternate rows styles*/
+    color:#700000;
+}
+
+.e-grid tr.e-hover { /* grid row hover color and styles*/
+    background: #E6CD82;
+    color: black;
+    font-weight: bold;
+}
+
+.e-grid .e-rowcell{
+    height: 42px;
+}
+
+.e-grid .e-content{
+    height: 300px !important;
+}
+
+.e-grid {
+    width: 800px !important;
+}
